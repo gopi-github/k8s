@@ -1,0 +1,48 @@
+2020-02-28 10:09:22,911 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2020-02-28 10:09:23,000 DEBUG    root            Running [gcloud.init] with arguments: []
+2020-02-28 10:09:23,001 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2020-02-28 10:09:23,002 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2020-02-28 10:09:23,032 INFO     ___FILE_ONLY___ core:
+  account: gopinathselvanathan@gmail.com
+  disable_usage_reporting: 'True'
+  project: digital-strata-257820
+
+2020-02-28 10:09:23,032 INFO     ___FILE_ONLY___ 
+
+2020-02-28 10:09:29,284 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2020-02-28 10:09:29,285 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2020-02-28 10:09:29,285 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2020-02-28 10:09:29,285 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2020-02-28 10:09:29,286 INFO     ___FILE_ONLY___ Checking network connection...
+2020-02-28 10:09:30,691 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2020-02-28 10:09:30,691 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2020-02-28 10:09:34,041 INFO     ___FILE_ONLY___ You are logged in as: [gopinathselvanathan@gmail.com].
+
+
+2020-02-28 10:09:34,047 INFO     oauth2client.client Refreshing access_token
+2020-02-28 10:10:02,726 INFO     ___FILE_ONLY___ Waiting for [operations/cp.6921187453732279647] to finish...
+2020-02-28 10:10:09,023 INFO     ___FILE_ONLY___ Your current project has been set to: [kube4cluster].
+
+
+2020-02-28 10:10:09,549 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2020-02-28 10:10:09,706 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2020-02-28 10:10:09,845 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2020-02-28 10:10:09,846 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2020-02-28 10:10:09,849 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2020-02-28 10:10:26,730 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

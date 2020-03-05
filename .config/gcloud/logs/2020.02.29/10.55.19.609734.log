@@ -1,0 +1,4 @@
+2020-02-29 10:55:19,611 ERROR    root            (gcloud) unrecognized arguments: -init 
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS

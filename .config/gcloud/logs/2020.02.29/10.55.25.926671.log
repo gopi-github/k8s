@@ -1,0 +1,80 @@
+2020-02-29 10:55:25,987 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2020-02-29 10:55:25,990 DEBUG    root            Running [gcloud.init] with arguments: []
+2020-02-29 10:55:25,990 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2020-02-29 10:55:25,991 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2020-02-29 10:55:25,995 INFO     ___FILE_ONLY___ core:
+  account: gopinathselvanathan@gmail.com
+  disable_usage_reporting: 'True'
+  project: kube4cluster
+
+2020-02-29 10:55:25,995 INFO     ___FILE_ONLY___ 
+
+2020-02-29 10:55:40,267 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2020-02-29 10:55:40,268 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2020-02-29 10:55:40,268 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2020-02-29 10:55:40,268 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2020-02-29 10:55:40,269 INFO     ___FILE_ONLY___ Checking network connection...
+2020-02-29 10:55:41,874 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2020-02-29 10:55:41,875 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2020-02-29 10:55:45,771 INFO     ___FILE_ONLY___ You are logged in as: [gopinathselvanathan@gmail.com].
+
+
+2020-02-29 10:55:45,776 INFO     oauth2client.client Refreshing access_token
+2020-02-29 10:55:50,960 INFO     ___FILE_ONLY___ Your current project has been set to: [digital-strata-257820].
+
+
+2020-02-29 10:55:51,425 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2020-02-29 10:55:51,557 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2020-02-29 10:55:51,598 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2020-02-29 10:55:51,600 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2020-02-29 10:55:51,602 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2020-02-29 10:55:52,308 INFO     root            Display disabled.
+2020-02-29 10:55:52,309 DEBUG    root            SDK update checks are disabled.
+2020-02-29 10:55:58,460 DEBUG    root            Executing command: [u'/usr/lib/google-cloud-sdk/bin/gsutil', u'config', u'-n', u'-o', u'/root/.boto']
+2020-02-29 10:56:00,950 DEBUG    ___FILE_ONLY___ 
+2020-02-29 10:56:00,950 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /root/.boto containing
+your credentials, based on your responses to the following questions.
+
+Boto config file "/root/.boto" created. If you need to use a proxy to
+access the Internet please see the instructions in that file.
+
+2020-02-29 10:56:00,950 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/root/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2020-02-29 10:56:00,951 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2020-02-29 10:56:00,951 INFO     ___FILE_ONLY___ * Commands that require authentication will use gopinathselvanathan@gmail.com by default
+
+2020-02-29 10:56:00,951 INFO     ___FILE_ONLY___ * Commands will reference project `digital-strata-257820` by default
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2020-02-29 10:56:00,952 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
+2020-02-29 10:56:00,955 INFO     root            Display format: "default"
+2020-02-29 10:56:00,955 DEBUG    root            SDK update checks are disabled.

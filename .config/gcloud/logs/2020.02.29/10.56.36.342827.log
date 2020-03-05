@@ -1,0 +1,27 @@
+2020-02-29 10:56:36,344 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-02-29 10:56:36,346 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2020-02-29 10:56:36,349 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-02-29 10:56:36,358 INFO     root            Display format: "default json"
+2020-02-29 10:56:36,358 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "gopinathselvanathan@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "digital-strata-257820"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0Adw1xeXYi0KuHJZFj8faHBm3LxVH7ruR6eRWZRVA7CHZ0G1Wj_X7WuL9F7wRijSqvLDGoyc8oKKf7Yeq9WSmY0wGnNVW3QMoewoHfUZet0NZwmh8x-8pI_TNtGtM4CXwFhSQYDb0EY0ABcccu3DA2UPh2sWfl55ch6bwvUjwCBfH",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5YzgwOWRkMTE4NmNjMjI4YzRiYWY5MzU4NTk5NTMwY2U5MmI0YzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5Mjk1Njc2MDc0NTg0MTkzMTA3IiwiZW1haWwiOiJnb3BpbmF0aHNlbHZhbmF0aGFuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiTzZDQlBGcTlwdjhlam00Y085RTByUSIsImlhdCI6MTU4Mjk3Mzc0NSwiZXhwIjoxNTgyOTc3MzQ1fQ.KtdbfB2oGaBbORoNDbsnv1ySL5pobt7vv7tTf537sIHmiNe4zpxPWkLfAq4LD3bJBcQ1A-0-3dxQEfhXYmzpX9rDUJEVnMZ9kxaQXdMuljn7HP1J9K8BilBUyM60IfwaxSASGwX4MCiEJlUgBF1xCLjQOveYxRoD6lOxDvg53vSQBVXhE7FCcq5ciWbwicv9V0s-K8s32sMvCREVDwbHD6nNtHCRTvHyHqkJgUUtF-luSizhrUrwu_Eo2cDVw7AxX6CiXgEnPhn0qInLjqGszlXcx7vOJrtQ9Scrpb-B_LjZecl5_EaMG2vopEYKTnAG7x8O7VSXheMGy9yXDJFAFw",
+    "token_expiry": "2020-02-29T11:55:44Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2020-02-29 10:56:36,358 INFO     ___FILE_ONLY___ 
+
+2020-02-29 10:56:36,359 DEBUG    root            SDK update checks are disabled.

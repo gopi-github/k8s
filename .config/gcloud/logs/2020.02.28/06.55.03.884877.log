@@ -1,0 +1,27 @@
+2020-02-28 06:55:03,886 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-02-28 06:55:03,889 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2020-02-28 06:55:03,891 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-02-28 06:55:03,903 INFO     root            Display format: "default json"
+2020-02-28 06:55:03,904 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "gopinathselvanathan@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "digital-strata-257820"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.ImXAB_QVURoWWHRRHsTDCGhxicZ6NHpxsFxPkC-RjRtDhmWo4zZ0OuQLWA4Q-XtXjaE28B3Q7SK23wg3r_91HXDb4TpkvfAsk6g5friLP0UxDOYK2NubpVSTVmUSa6nKFwp7XQ-eqA",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5YzgwOWRkMTE4NmNjMjI4YzRiYWY5MzU4NTk5NTMwY2U5MmI0YzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5Mjk1Njc2MDc0NTg0MTkzMTA3IiwiZW1haWwiOiJnb3BpbmF0aHNlbHZhbmF0aGFuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiWnFvTktMdlBhY2djaFhJbTlxc0NzZyIsImlhdCI6MTU4Mjg3MjgzNywiZXhwIjoxNTgyODc2NDM3fQ.eDHd2xqx38PEUSfI-sTVoBcMRlA9p4qMNhJTPjlC06RVYEvdZlPpwkX9iCa86zKv2I9tB6gCe_KoT7L3gDWCNSYINDlpcjOVrBnQwsMC5TAR13UKA_SmJaoFp1W2_PkKMkSj_Lf5Er1KzHcO7uOzDNx8QMgR2nvUJPZ2m_s4RHQtGtkoAzr_HdX_YF3sp1xxdPuRzkowU3cduQNmFMM3Q_4YUaD_3n8T5ZZRSNuqyrKLvK1o6zlUPeNm4UUUqNG3WgxjjTiGFrr4ssaD5xMJgBM1HcHRP8LM_hVs55WycwWC74LjO6huYo6qf629oq7KZm_RSxbBGQ6W2DrwY6s2Cw",
+    "token_expiry": "2020-02-28T07:53:56Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2020-02-28 06:55:03,904 INFO     ___FILE_ONLY___ 
+
+2020-02-28 06:55:03,905 DEBUG    root            SDK update checks are disabled.

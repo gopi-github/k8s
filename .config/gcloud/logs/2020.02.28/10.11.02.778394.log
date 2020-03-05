@@ -1,0 +1,27 @@
+2020-02-28 10:11:02,780 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-02-28 10:11:02,782 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2020-02-28 10:11:02,785 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-02-28 10:11:02,794 INFO     root            Display format: "default json"
+2020-02-28 10:11:02,795 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "gopinathselvanathan@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "kube4cluster"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.ImXAB8kgObzqXNwy4G83fj0W_xQ0M0jFsbMSiFzH_gUbup4h63nQRd5F37Asezr9mR4MP1yUbhl0irSvyrdn6W4o-QmiiR4MHcmhRXkf5R7ssru9nrlds8fKsztowbaJONmwVDaCHg",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5YzgwOWRkMTE4NmNjMjI4YzRiYWY5MzU4NTk5NTMwY2U5MmI0YzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5Mjk1Njc2MDc0NTg0MTkzMTA3IiwiZW1haWwiOiJnb3BpbmF0aHNlbHZhbmF0aGFuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZDJCSVFSX0ttOWF1dHF1X1htaEZrdyIsImlhdCI6MTU4Mjg4NDU3MywiZXhwIjoxNTgyODg4MTczfQ.XrZ-KO1ogZquH_pQMmgjfAGTdXP6J2JfThCtuDLtANLDXuU7yj82ZPOoX5tikp1gmXapLqHI0pnvCZsX8Q2-BZwdeLsq0sHrnzDUzCYq7aZ2U8i-KSoLkG9u4DQ8zBm8Ke64lflANZ89YNfDxRea9q4uXPi1_EYc3MKR4ChL74aWqLdfFOBFld9KX4l0Njai1bxye2kT8nIjuMuyOPtcTSw99b7UvpduG12itzSn4iqXc2jPKRJ7B1nUMPFBXyV3Mkss2DqpsknQY2AG9si3aCifO4ZoDBLDPbxSqeDv3N5tAFOkxV8GR41G1KlxYWLs6HrYUQU0LjI0-EVA6xbuzg",
+    "token_expiry": "2020-02-28T11:09:33Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/root/.config/gcloud/config_sentinel"
+  }
+}
+2020-02-28 10:11:02,795 INFO     ___FILE_ONLY___ 
+
+2020-02-28 10:11:02,795 DEBUG    root            SDK update checks are disabled.

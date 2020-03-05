@@ -1,0 +1,11 @@
+2020-03-04 08:14:52,354 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2020-03-04 08:14:52,601 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2020-03-04 08:14:52,605 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2020-03-04 08:14:52,694 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "digital-strata-257820", --zone: "asia-northeast3-b", NAME: "k8s"]
+2020-03-04 08:14:52,885 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2020-03-04 08:14:53,080 DEBUG    root            Saved kubeconfig to /root/.kube/config
+2020-03-04 08:14:53,080 INFO     ___FILE_ONLY___ kubeconfig entry generated for k8s.
+
+2020-03-04 08:14:53,082 INFO     root            Display format: "default"
+2020-03-04 08:14:53,083 DEBUG    root            SDK update checks are disabled.
